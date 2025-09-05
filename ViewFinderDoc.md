@@ -38,3 +38,8 @@ Take Photo Widget Class: the widget class displayed when enter photo mode
 Draw Debug Frustum: show the view frustum bounds
 Show Tool Mesh: show tool mesh to cut meshs
 Draw Debug Type: show box trace info
+
+
+6.Cut Mesh Runtime
+All static meshes in level should set bAllowCPUAccess to true.
+<img width="332" height="122" alt="image" src="https://github.com/user-attachments/assets/c786414c-d7ee-4f01-86b7-f500ff8d147f" />
