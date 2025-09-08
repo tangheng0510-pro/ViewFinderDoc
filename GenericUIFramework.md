@@ -80,3 +80,4 @@ Setup the Panel Setting Asset and Gameplay Tag Table List
 
 <img width="1469" height="322" alt="image" src="https://github.com/user-attachments/assets/000219fd-8398-4041-ae89-da572b9158b3" />
 
+9.You can see more api from cpp code.
