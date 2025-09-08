@@ -49,8 +49,11 @@ Open Project Settings, set the Panel Setting Asset
 <img width="1366" height="220" alt="image" src="https://github.com/user-attachments/assets/e17d5822-8bbd-4863-9170-8eacda2062f4" />
 
 Key: Create/Select a gameplay tag for panel
+
 Panel Class: The soft class of the panel
+
 Multi Open: If MultiOpen is false, it will close the previous one when you open a same panel
+
 Layer Tag:Specify on which layer the panel is opened
 
 7.Open / Close Panel
@@ -62,7 +65,9 @@ Layer Tag:Specify on which layer the panel is opened
 <img width="660" height="290" alt="image" src="https://github.com/user-attachments/assets/fcd3b971-4024-4b68-aa6f-651a82e4fc1c" />
 
 Close Panel: used to close self
+
 Close Panel By Tag: close any panel by tag
+
 Close To Panel: close all panels above the panel
 
 8.Setup the DemoMap
