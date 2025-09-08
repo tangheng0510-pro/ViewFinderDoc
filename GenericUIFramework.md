@@ -70,6 +70,11 @@ Close Panel By Tag: close any panel by tag
 
 Close To Panel: close all panels above the panel
 
+<img width="527" height="249" alt="image" src="https://github.com/user-attachments/assets/b6d7544e-fb70-41e5-a527-8e03b3f4b2ca" />
+
+You can use tag to get layers to do more.
+
+
 8.Setup the DemoMap
 
 Thers is an Demo contains in the plugin content folder.
