@@ -72,7 +72,9 @@ Close To Panel: close all panels above the panel
 
 8.Setup the DemoMap
 
-setup the Panel Setting Asset and Gameplay Tag Table List
+Thers is an Demo contains in the plugin content folder.
+
+Setup the Panel Setting Asset and Gameplay Tag Table List
 
 <img width="1268" height="657" alt="image" src="https://github.com/user-attachments/assets/532b4ccc-961e-464b-b886-8bcb62ecf8e9" />
 
