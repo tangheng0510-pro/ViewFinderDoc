@@ -19,6 +19,7 @@ Open Project Settings, set the Red Dot Asset
 <img width="1325" height="419" alt="image" src="https://github.com/user-attachments/assets/3d8e65c1-c3a4-48ae-8fd2-578625b916e7" />
 
 Key: Red Dot Tag
+
 Value: If the red dot has a parent node
 
 7.Set/Clear Red Dot
