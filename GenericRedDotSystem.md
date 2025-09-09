@@ -33,5 +33,7 @@ Value: If the red dot has a parent node
 <img width="744" height="407" alt="image" src="https://github.com/user-attachments/assets/be46492b-bef6-4474-9c7e-2a7b4f6a7ac3" />
 
 
+8.Load Red Dot Dynamic
 
+<img width="975" height="348" alt="image" src="https://github.com/user-attachments/assets/0d2a1298-5c70-4bc8-9b49-535ce21200ef" />
 
