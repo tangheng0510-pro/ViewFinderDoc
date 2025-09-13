@@ -1,4 +1,4 @@
-# GenericUIFramework
+# TimerExtension
 
 1.Enable Plugin
 
