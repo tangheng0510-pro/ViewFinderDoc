@@ -26,3 +26,6 @@ You can modify the TexturePackUtilityAsset in the Content directory of the plugi
 
 
 <img width="577" height="116" alt="image" src="https://github.com/user-attachments/assets/dbccd93e-6e2b-4fe9-9b0f-3765be0a15d9" />
+
+
+You can import them into the engine.The Paper2D plugin will generate SpriteSheet based on json.
