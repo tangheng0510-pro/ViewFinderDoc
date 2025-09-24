@@ -1,4 +1,4 @@
-# RichTextExtension
+# TexturePacker
 
 1.Enable Plugin
 
