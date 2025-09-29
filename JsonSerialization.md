@@ -19,35 +19,27 @@
 
 (1).The logic for creating a UObject is very complex, so the plugin will not automatically create a UObject.
 
-创建UObject的逻辑十分的复杂，所以插件不会自动创建UObject
-
 When SerializeObjectToJson is called, if a UObject member variable sets SaveGame and it is valid, it will be saved as JsonObject.
 
 When DeserializeJsonToObject is called, if it is valid, read the data from JsonObject; otherwise, skip it.
+
+Alternatively, you can create it later, then look up the data from the Json and call DeserializeJsonToObject.
+
+创建UObject的逻辑十分的复杂，所以插件不会自动创建UObject
 
 当调用SerializeObjectToJson时，如果一个UObject成员变量设置了SaveGame，如果它是有效的，它将被保存为JsonObject。
 
 当调用DeserializeJsonToObject时，如果它是有效的，就从JsonObject读取数据，否则就跳过它。
 
-Alternatively, you can create it later, then look up the data from the Json and call DeserializeJsonToObject.
-
 或者，你可以之后再创建它，然后从Json中查找数据，再调用DeserializeJsonToObject。
 
 (2).Similarly, when using container types (TArray, TMap, TSet), there are also some limitations if UObject is used.
 
-同样的，使用容器类型时（TArray、TMap、TSet），如果使用UObject也有一些限制。
-
 First of all, none of them will automatically create UObjects. You have to create them yourself.
-
-首先，它们都不会自动创建UObject，你必须自己创建它们。
 
 TArray:If the index exists in the array, it will be deserialized for it; otherwise, it will be skipped.
 
-TArray:如果索引在数组中存在，则会为它进行反序列化，否则跳过它
-
 TSet:If UObject is used, it will be skipped directly. You must create and deserialize them yourself.
-
-TSet:如果使用UObject会直接跳过。你必须自己创建并反序列化它们。
 
 TMap:
 
@@ -56,6 +48,14 @@ If the Key exists, it will be deserialized for it; otherwise, it will be skipped
 You cannot use UObject as the Key, it will be skipped.
 
 If a struct is used as the Key, although this is not a good idea, it will still be serialized into a JsonString. There is no guarantee that doing this will be fine. It is experimental.
+
+同样的，使用容器类型时（TArray、TMap、TSet），如果使用UObject也有一些限制。
+
+首先，它们都不会自动创建UObject，你必须自己创建它们。
+
+TArray:如果索引在数组中存在，则会为它进行反序列化，否则跳过它
+
+TSet:如果使用UObject会直接跳过。你必须自己创建并反序列化它们。
 
 TMap:
 
