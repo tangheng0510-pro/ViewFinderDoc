@@ -2,7 +2,7 @@
 
 1.Enable Plugin
 
-<img width="745" height="110" alt="image" src="https://github.com/user-attachments/assets/adf30f86-11c3-4c89-a5b7-4314aadea1e2" />
+<img width="1007" height="123" alt="image" src="https://github.com/user-attachments/assets/c14ff7fc-9513-4e9f-818e-9108dc68a677" />
 
 2.How to use
 
