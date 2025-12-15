@@ -21,6 +21,8 @@ Get Actor From Pool:
 
 <img width="780" height="338" alt="image" src="https://github.com/user-attachments/assets/ddf2ca6d-4ed6-431f-b1c1-f35fe41671df" />
 
+Payload:It is a FInstancedStruct, you can pass any structure through it.
+
 Recycle Actor:
 
 <img width="415" height="248" alt="image" src="https://github.com/user-attachments/assets/18874e4b-7188-4e83-a268-a88a064c6057" />
