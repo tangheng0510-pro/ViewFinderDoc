@@ -12,7 +12,9 @@ Initialize:
 <img width="1093" height="455" alt="image" src="https://github.com/user-attachments/assets/8eead14e-f6ff-4480-beb8-272ae446332f" />
 
 InCreateActorDelegate:Pass in a custom function to create an Actor.
+
 InOnActorGetFromPoolDelegate:Executed when obtaining an Actor from the object pool, it is generally used to reset the Actor's state.
+
 InOnActorReturnToPoolDelegate:Executed when the Actor is reclaimed into the object pool, for example, to cancel the timer.
 
 Get Actor From Pool:
