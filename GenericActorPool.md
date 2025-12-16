@@ -2,6 +2,11 @@
 
 <img width="1015" height="127" alt="image" src="https://github.com/user-attachments/assets/f5ab3581-0b52-40ea-ac35-b2b354b6c3f2" />
 
+In some engine versions, you need to enable the StructUtils plugin to use InstancedStruct.
+
+<img width="844" height="100" alt="image" src="https://github.com/user-attachments/assets/9816a465-a723-4c19-b86f-94ad928b797d" />
+
+
 2.GenericActorPoolComponent
 
 <img width="334" height="251" alt="image" src="https://github.com/user-attachments/assets/88c59982-5800-49ef-b581-0931af6d27ba" />
